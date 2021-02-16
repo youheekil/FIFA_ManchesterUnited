@@ -8,8 +8,6 @@ Okay, my Football Knowledge is close to the ground. But, there are more and more
 There are THREE areas where Big Data is used in Football. First, Data and strategy analysis effect. Second, Injury prevention effect. Third, the effect of meeting Football fans ' needs through analyzing football matches. In this project, the first area of Big data used in Football, 'Data and Strategy analysis effect', will be performed.
 
 
-**First Analysis Question: "What kind of Football Players are needed in Machester United Team?"** 
-
 ##### < Description of the FIFA Data >
 
 | Column Name|  Description |
