@@ -10,6 +10,7 @@ In this project, the first area of Big data used in Football, 'Data and Strategy
 
 Then who are the two players who changed the atmosphere of Manchester United successfully? What are the features of the two players? Was Manchester United a successful turnaround because of those two players? To investigate those listed questions, we will analyze Manchester United through 2018/2019 FIFA Data (from Kaggle) which is happened before Manchester United successfully turnaround the atmosphere. Then we will identify the type of international European football players needed for Manchester United and compare those players with the two players recruited by Ole Gunnar Solskjær from the winter market of 2019/2020.
 
+The ranks of the Season club coefficients 2019/2020 can be found [here](https://www.uefa.com/memberassociations/uefarankings/club/seasons/)
 
 ##### < Description of the FIFA Data >
 
