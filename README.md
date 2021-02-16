@@ -12,6 +12,14 @@ Then who are the two players who changed the atmosphere of Manchester United suc
 
 The ranks of the Season club coefficients 2019/2020 can be found [here](https://www.uefa.com/memberassociations/uefarankings/club/seasons/)
 
+Acording to [UEFA](https://www.uefa.com/memberassociations/uefarankings/club/about/), the coefficient can be read as follow: 
+> The **club coefficients** are based on the results of clubs competing in the five previous seasons of the UEFA Champions League and UEFA Europa League. The rankings determine the seeding of each club in relevant UEFA competition draws.
+
+> The **season club coefficients** are based on the results of clubs competing in the current UEFA Champions League and UEFA Europa League season. The rankings, combined with those of the previous four seasons, determine the seeding for each club in all UEFA competition draws.
+
+> Coefficient calculation: **Clubs' coefficients** are determined EITHER the sum of all points won in the previous five years OR the association coefficient over the same period, WHICHEVER IS THE HIGHER (under a new system introduced for 2018/19 onwards).
+
+
 ##### < Description of the FIFA Data >
 
 | Column Name|  Description |
@@ -38,13 +46,5 @@ The ranks of the Season club coefficients 2019/2020 can be found [here](https://
 | Release Clause | Buyout Clause* |
 
 *It is an amount stipulated in the player's contract that, if paid by another club, will automatically lead to the player being sold to that club.
-
-Acording to [UEFA](https://www.uefa.com/memberassociations/uefarankings/club/about/), the coefficient can be read as follow: 
-> The **club coefficients** are based on the results of clubs competing in the five previous seasons of the UEFA Champions League and UEFA Europa League. The rankings determine the seeding of each club in relevant UEFA competition draws.
-
-> The **season club coefficients** are based on the results of clubs competing in the current UEFA Champions League and UEFA Europa League season. The rankings, combined with those of the previous four seasons, determine the seeding for each club in all UEFA competition draws.
-
-> Coefficient calculation: **Clubs' coefficients** are determined EITHER the sum of all points won in the previous five years OR the association coefficient over the same period, WHICHEVER IS THE HIGHER (under a new system introduced for 2018/19 onwards).
-
 
 
