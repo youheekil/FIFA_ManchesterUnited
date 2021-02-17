@@ -47,4 +47,37 @@ Acording to [UEFA](https://www.uefa.com/memberassociations/uefarankings/club/abo
 
 *It is an amount stipulated in the player's contract that, if paid by another club, will automatically lead to the player being sold to that club.
 
+#### Main Players 
+The association football positions is  
+* Goalkeeper
+* Defender (Center-back, Sweeeper, Full-back, Wing-back)
+* Midfielder (Center-midfiled, Defnesive midfield, Attacking midfield, Wide midfield)
+* Forward (Center forward, Second striker, Winger) 
+
+![Image of Soccer Position](https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_432/MTc1NDU0MjY3MDg2NTQ2NTAw/positions-in-soccer-and-their-roles.webp)
+
+--- 
+In this project, we will select 
+* GK:1 / CB:4 / MF:4 / ST: 2
+* And the selection criteria of main players of two teams (MU and MC) is based on 'Overall' (Player's current stats)
+
+**List of GK, CB, MF, ST**
+There are 'GK', 'RCM', 'LCM', 'ST', 'RDM', 'LW', 'RW', 'CDM', 'CB', 'LCB',
+       'RB', 'CM', 'RCB', 'RM', 'CAM', 'LB' positions in the data. 
+
+* gk_list = 'GK'
+* cb_list = 'CB', 'LCB', 'RCB', 'RB', 'LB'
+* mf_list = 'RCM', 'LCM', 'CDM', 'CM', 'RM', 'CAM'
+* st_list = 'ST', 'LW', 'RW'
+
+---
+
+This is Data Analysis Plan we established for this project. 
+
+### 1. Analyze about players of Manchester United - What kind of players are in Manchester United
+### 2. Compare players stat with Manchester City, the rival team of Manchester United
+### 3. Choose(select) two insufficient positions
+### 4. What kind of players Manchester United should recruit? Recruit two players from other teams with consideration of Manchester United's Finances, Feasiblity, and Recruitment policy
+
+
 
