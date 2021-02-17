@@ -61,7 +61,8 @@ In this project, we will select
 * GK:1 / CB:4 / MF:4 / ST: 2
 * And the selection criteria of main players of two teams (MU and MC) is based on 'Overall' (Player's current stats)
 
-**List of GK, CB, MF, ST**
+**List of GK, CB, MF, ST** 
+
 There are 'GK', 'RCM', 'LCM', 'ST', 'RDM', 'LW', 'RW', 'CDM', 'CB', 'LCB',
        'RB', 'CM', 'RCB', 'RM', 'CAM', 'LB' positions in the data. 
 
