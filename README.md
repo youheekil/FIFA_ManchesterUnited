@@ -79,6 +79,9 @@ This is Data Analysis Plan we established for this project.
 ### 2. Compare players stat with Manchester City, the rival team of Manchester United
 ### 3. Choose(select) two insufficient positions
 ### 4. What kind of players Manchester United should recruit? Recruit two players from other teams with consideration of Manchester United's Finances, Feasiblity, and Recruitment policy
+(work in progress on the 4th secion now)
+
+*Code can be found on `FIFA.py` above*
 
 
 
