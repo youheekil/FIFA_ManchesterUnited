@@ -35,7 +35,7 @@ data.head()
 
 mu = data[data['Club'] == 'Manchester United']
 mc = data[data['Club'] == 'Manchester City']
-]
+
 
 mu['Club'].unique()
 mc['Club'].unique()
@@ -211,3 +211,40 @@ sns.boxplot(data = df, x='Position', y='Value', hue='Club')
 # 4. What kind of players Manchester United should recruit? Recruit two players from other teams with consideration of Manchester United's Finances, Feasiblity, and Recruitment policy
 
 ## a. EDA - determine which player who are in the required position can be replaced. Selection Criteria is based on 'Name','Overall','Potential','Age', 'Joined', 'Point'
+
+# point = (Overall*2 + Potential) / Age
+mu['Point'] = (mu['Overall']*2 + mu['Potential'])/ mu['Age']
+mu[mu['Position']=='MF'][['Name', 'Overall', 'Potential', 'Age', 'Joined', 'Point']] # Juan Mata got lowest 'Point' among 'MF'
+
+mu[mu['Position']=='CB'][['Name', 'Overall', 'Potential', 'Age', 'Joined', 'Point']] # C.smalling got lowest 'Point' among 'CB'
+
+
+mu[mu['Position']=='ST'][['Name', 'Overall', 'Potential', 'Age', 'Joined', 'Point']] # two players got similar points (so we keep these two 'ST' main players)
+
+
+## So, now we tried to kick out(?) those players who got lowest score on each field and recruit other players to each 'MF' and 'CB'
+
+## visualization
+### we only consider players who are positioning 'MF' & 'CB'.
+market = data[(data['Position']=='MF')|(data['Position']=='CB')]
+
+import matplotlib.pyplot as plt
+
+f, ax = plt.subplots(2,4, figsize=(20,10))
+vs_list = ['Age', 'Overall', 'Potential', 'Weak Foot']
+
+for i in range(8) :
+
+    if i < 4 :
+        colors = ['firebrick' if x > market[market['Position']=='CB'][:13][vs_list[i]].mean() else 'gray' for x in market[market['Position']=='CB'][:13][vs_list[i]]]
+
+        sns.barplot(x= vs_list[i], y = 'Name', data = market[market['Position']=='CB'][:13], palette = colors, ax = ax[i//4, i%4])
+
+        ax[i//4, i%4].axvline(market[market['Position']=='CB'][:13][vs_list[i]].mean(), ls = '--')
+
+    else :
+        sns.barplot(x = vs_list[i%4], y = 'Name', data = market[market['Position']=='RM'][:13], ax = ax[i//4, i%4])
+
+        ax[i//4, i%4].axvline(market[market['Position']=='RM'][:13][vs_list[i%4]].mean(), ls= '--')
+
+market[market['Position']=='CB']
